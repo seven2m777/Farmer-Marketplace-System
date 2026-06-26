@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    Num1 : <input type="number" name="num1" id="num1"/> <br />
+    Num2 : <input type="number" name="num2" id="num2"/> <br />
+
+    <button onclick="add()">ADD</button><br/>
+    <button onclick="sub()">SUBTRACT</button><br/>
+
+    <p id="result"></p>
+
+    <script>
+        function add(){
+
+            let num1 = document.getElementById("num1").value;
+              let num2 = document.getElementById("num2");
+                let result = document.getElementById("result");
+
+                result.innerText = "Sum: " +(Number.parseFloat(num1) + Number.parseFloat(num2.value));
+
+        }
+
+        function sub(){
+             let num1 = document.getElementById("num1").value;
+              let num2 = document.getElementById("num2");
+                let result = document.getElementById("result");
+
+                result.innerText = "Sub: " +(Number.parseFloat(num1) - Number.parseFloat(num2.value));
+
+        }
+    </script>
+
+</body>
+</html>
