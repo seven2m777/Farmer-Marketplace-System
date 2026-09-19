@@ -1,0 +1,4 @@
+<?php
+/**
+ * FarmLink — logout.php
+ */
