@@ -1,4 +1,1 @@
 <?php
-/**
- * FarmLink — orders.php
- */

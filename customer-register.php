@@ -1,4 +1,3 @@
 <?php
-/**
- * FarmLink — customer-register.php
- */
+header("Location: vendor-register.php");
+exit();

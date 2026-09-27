@@ -726,7 +726,7 @@
     const roleData = {
       farmer: {
         badge: "Produce Origin &bull; Farmer Console",
-        title: "🌾 Farmer: Harvest Listing & Storage Booking",
+        title: " Farmer: Harvest Listing & Storage Booking",
         desc: "Preview of the Farmer dashboard for listing harvests and locking cold storage bays:",
         items: [
           { label: "Active Harvest Listings", val: "3 Active Lots (Red Potatoes, Winter Apples)" },
@@ -752,7 +752,7 @@
       },
       vendor: {
         badge: "Market Demand &bull; Vendor Marketplace",
-        title: "🏪 Vendor: Verified Cold-Stored Procurement",
+        title: " Vendor: Verified Cold-Stored Procurement",
         desc: "Preview of the Vendor procurement marketplace for certified cold-chain produce:",
         items: [
           { label: "Live Verified Inventory", val: "1,200 MT Potatoes, 450 MT Apples, 80 MT Citrus" },
@@ -765,7 +765,7 @@
       },
       admin: {
         badge: "Governance &bull; System Overseer",
-        title: "🛡️ System Admin: Regional Telemetry & Audits",
+        title: " System Admin: Regional Telemetry & Audits",
         desc: "Preview of the System Admin governance dashboard overseeing food security:",
         items: [
           { label: "Certified Facilities", val: "24 Regional Cold Storage Plants Active" },
