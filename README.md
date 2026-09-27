@@ -14,7 +14,7 @@ A web-based platform connecting Farmers, Cold Storage Operators, Commercial Prod
 
 ## Project Structure
 ```
-claude/
+fms/
 ├── index.php                # Landing page & platform overview
 ├── login.php                # Unified role authentication portal
 ├── register.php             # General registration
